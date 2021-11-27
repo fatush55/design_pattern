@@ -51,4 +51,4 @@ const samsungMobileFactory = new SamsungMobileFactory();
 
 const samsungS3 = samsungMobileFactory.create(SamsungMobile.s3);
 
-console.log(samsungS3.info)
+console.log(samsungS3.info) // {price: 3000, discount: 0, type: 'mobile', brand: 'samsung', model: 's3'};
