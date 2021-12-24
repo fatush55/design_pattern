@@ -54,12 +54,7 @@ const acer530 = new LaptopBuilder(23000, 'acer', 530)
 
 console.log(acer530.info)
 /* {
- 	price: 23000,
- 	brand: 'acer',
- 	model: 530,
- 	discount: 15,
- 	ssd: '500 Gb',
- 	frontCam: 'g-4139',
+	price: 23000, brand: 'acer', model: 530, discount: 15, ssd: '500 Gb', frontCam: 'g-4139',
  } */
 
 const acer350 = new LaptopBuilder(20000, 'acer', 350)
@@ -68,10 +63,5 @@ const acer350 = new LaptopBuilder(20000, 'acer', 350)
 
 console.log(acer350.info)
 /* {
-  price: 20000,
-  brand: 'acer',
-  model: 350,
-  discount: null,
-  ssd: '500 Gb',
-  frontCam: null,
+	price: 20000, brand: 'acer', model: 350, discount: null, ssd: '500 Gb', frontCam: null,
  } */
