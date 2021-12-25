@@ -93,9 +93,6 @@ componentList.forEach(val => {
 
 console.log(mobileComposite.getInfo)
 /* {
-  brent: 'Apple',
-  model: 'iPhone 12s',
-  price: 1500,
-  description: 'CPU, Battery, Camera, Screen'
+  brent: 'Apple', model: 'iPhone 12s', price: 1500, description: 'CPU, Battery, Camera, Screen'
 } */
 
