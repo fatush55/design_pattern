@@ -29,28 +29,24 @@ class LaptopFactory {
 
 		if (brent === Laptop.acer) {
 			const laptops = new Laptop(brent, 1250);
-
 			this.laptopsList[brent] = laptops.info;
 			return this.laptopsList[brent];
 		}
 
 		if (brent === Laptop.asus) {
 			const laptops = new Laptop(brent, 1450);
-
 			this.laptopsList[brent] = laptops.info;
 			return this.laptopsList[brent];
 		}
 
 		if (brent === Laptop.samsung) {
 			const laptops = new Laptop(brent, 1650);
-
 			this.laptopsList[brent] = laptops.info;
 			return this.laptopsList[brent];
 		}
 
 		if (brent === Laptop.hp) {
-			const laptops = new Laptop(brent, 1150)
-
+			const laptops = new Laptop(brent, 1150);
 			this.laptopsList[brent] = laptops.info;
 			return this.laptopsList[brent];
 		}
