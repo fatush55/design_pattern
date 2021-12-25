@@ -32,7 +32,7 @@ class StoreSSD500 {
 		const info = this.laptop.info;
 
 		return {
-			...info,
+			...this.laptop.info,
 			price: info.price + 350,
 			model: `${info.model}/sdd-500`,
 			sdd: 500,
