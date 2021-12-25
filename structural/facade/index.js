@@ -191,18 +191,13 @@ const r2 = reception.createReception({
 
 console.log(r1);
 /*{
-  userName: 'Kosta Zuravel',
-  doctorName: 'Vasa Puchkov',
-  time: 'from 18/1/2022 - 8:30 to 18/1/2022 - 11:30'
+  userName: 'Kosta Zuravel', doctorName: 'Vasa Puchkov', time: 'from 18/1/2022 - 8:30 to 18/1/2022 - 11:30'
 } */
 
 console.log(r2);
 /*
-This user has already exists
+// This user has already exists
 {
-  userName: 'Kosta Zuravel',
-  doctorName: 'Vasa Puchkov',
-  time: 'from 18/1/2022 - 12:30 to 18/1/2022 - 14:30'
-}
-* */
+  userName: 'Kosta Zuravel', doctorName: 'Vasa Puchkov', time: 'from 18/1/2022 - 12:30 to 18/1/2022 - 14:30'
+} */
 
