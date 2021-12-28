@@ -34,15 +34,12 @@ class MobileFactory {
 		if (MobileComponent.cpu === type) {
 			return new MobileComponent(200, 'CPU');
 		}
-
 		if (MobileComponent.camera === type) {
 			return new MobileComponent(400, 'Camera');
 		}
-
 		if (MobileComponent.screen === type) {
 			return new MobileComponent(600, 'Screen');
 		}
-
 		if (MobileComponent.battery === type) {
 			return new MobileComponent(300, 'Battery');
 		}
@@ -52,26 +49,17 @@ class MobileFactory {
 class MobileComposite extends Component{
 	constructor() {
 		super();
-
 		this.componets = [];
 	}
-
 	add(component) {
 		this.componets.push(component);
 	}
-
 	get _price() {
-		return this.componets
-			.map(val => val.getPrice)
-			.reduce((a, b) => a + b);
+		return this.componets.map(val => val.getPrice).reduce((a, b) => a + b);
 	}
-
 	get _description() {
-		return this.componets
-			.map(val => val.getName)
-			.join(', ')
+		return this.componets.map(val => val.getName).join(', ')
 	}
-
 	get getInfo() {
 		return {
 			brent: 'Apple',
