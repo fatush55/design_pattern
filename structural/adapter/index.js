@@ -87,15 +87,10 @@ const account = new Account();
 
 console.log(account.create({ token: '321' }))
 /* {
-  id: 3,
-  name: 'user os 1',
-  email: 'example101@example.com',
-  token: '321'
+  id: 3, name: 'user os 1', email: 'example101@example.com', token: '321'
 } */
 
 console.log(account.create({ formData: { name: 'Karlo', email: 'karlo1@example'} }))
 /* {
-	id: 4,
-	name: 'Karlo',
-	email: 'karlo1@example'
+	id: 4, name: 'Karlo', email: 'karlo1@example'
 } */

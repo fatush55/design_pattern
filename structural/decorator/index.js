@@ -32,7 +32,7 @@ class StoreSSD500 {
 		const info = this.laptop.info;
 
 		return {
-			...info,
+			...this.laptop.info,
 			price: info.price + 350,
 			model: `${info.model}/sdd-500`,
 			sdd: 500,
@@ -60,29 +60,17 @@ class StoreHDD1000 {
 let acer650G = new Laptop(28000, 'acer', '650G', 'red');
 console.log(acer650G.info);
 /*{
-  price: 28000,
-  brand: 'acer',
-  model: '650G',
-  color: 'red',
+  price: 28000, brand: 'acer', model: '650G', color: 'red',
 } */
 
 acer650G = new StoreSSD500(acer650G);
 console.log(acer650G.info);
 /*{
-  price: 28350,
-  brand: 'acer',
-  model: '650G/sdd-500',
-  color: 'red',
-  sdd: 500
+  price: 28350, brand: 'acer', model: '650G/sdd-500', color: 'red', sdd: 500
 } */
 
 acer650G = new StoreHDD1000(acer650G);
 console.log(acer650G.info);
 /*{
-  price: 28800,
-  brand: 'acer',
-  model: '650G/sdd-500/hdd-1000',
-  color: 'red',
-  sdd: 500,
-  hdd: 1000
+  price: 28800, brand: 'acer', model: '650G/sdd-500/hdd-1000', color: 'red', sdd: 500, hdd: 1000
 } */

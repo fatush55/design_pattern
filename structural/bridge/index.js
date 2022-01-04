@@ -126,68 +126,12 @@ const bridgeIPhone12 = new BridgeIPhone12();
 
 console.log(bridgeIPhone12.mobiles);
 /* [
-  {
-    brand: 'Apple',
-    model: '12',
-    description: 'iPhone 12',
-    store: 64,
-    color: 'black',
-    price: 20000
-  },
-  {
-    brand: 'Apple',
-    model: '12',
-    description: 'iPhone 12',
-    store: 64,
-    color: 'red',
-    price: 20010
-  },
-  {
-    brand: 'Apple',
-    model: '12',
-    description: 'iPhone 12',
-    store: 128,
-    color: 'black',
-    price: 20030
-  },
-  {
-    brand: 'Apple',
-    model: '12',
-    description: 'iPhone 12',
-    store: 128,
-    color: 'red',
-    price: 20040
-  },
-  {
-    brand: 'Apple',
-    model: '12-pro',
-    description: 'iPhone 12 pro',
-    store: 64,
-    color: 'black',
-    price: 25000
-  },
-  {
-    brand: 'Apple',
-    model: '12-pro',
-    description: 'iPhone 12 pro',
-    store: 64,
-    color: 'red',
-    price: 25010
-  },
-  {
-    brand: 'Apple',
-    model: '12-pro',
-    description: 'iPhone 12 pro',
-    store: 128,
-    color: 'black',
-    price: 25030
-  },
-  {
-    brand: 'Apple',
-    model: '12-pro',
-    description: 'iPhone 12 pro',
-    store: 128,
-    color: 'red',
-    price: 25040
-  }
+  { brand: 'Apple', model: '12', description: 'iPhone 12', store: 64, color: 'black', price: 20000 },
+  { brand: 'Apple', model: '12', description: 'iPhone 12', store: 64, color: 'red', price: 20010 },
+  { brand: 'Apple', model: '12', description: 'iPhone 12', store: 128, color: 'black', price: 20030 },
+  { brand: 'Apple', model: '12', description: 'iPhone 12', store: 128, color: 'red', price: 20040 },
+  { brand: 'Apple', model: '12-pro', description: 'iPhone 12 pro', store: 64, color: 'black', price: 25000 },
+  { brand: 'Apple', model: '12-pro', description: 'iPhone 12 pro', store: 64, color: 'red', price: 25010 },
+  { brand: 'Apple', model: '12-pro', description: 'iPhone 12 pro', store: 128, color: 'black', price: 25030 },
+  { brand: 'Apple', model: '12-pro', description: 'iPhone 12 pro', store: 128, color: 'red', price: 25040 },
 ] */
