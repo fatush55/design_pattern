@@ -16,6 +16,10 @@ class Notification {
 	set addNextNotification (notification) {
 		this.nextNotification = notification;
 	}
+
+	get show() {
+		console.log(this)
+	}
 }
 
 class NotificationSimple extends Notification {
