@@ -49,7 +49,7 @@ const laptopFactory = new LaptopFactory();
 const asus = laptopFactory.create(Laptop.ASUS);
 
 console.log(asus.info);
-// { name: 'ASUS', price: 1500 }c
+// { name: 'ASUS', price: 1500 }
 asus.accept(holidayDiscountVisitor);
 console.log(asus.info);
 // holiday discount $90
